@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/adev" mode="merge"/>
+    <filter root="/content/adev" mode="merge"/>
+    <filter root="/content/dam/adev" mode="merge">
+        <exclude pattern="/content/dam/adev(/.*)?"/>
+        <include pattern="/content/dam/adev/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/adev/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/adev" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/adev",
+        "create path (nt:unstructured) /content/dam/adev/jcr:content",
+        "set properties on /content/dam/adev/jcr:content\n  set cq:conf{String} to /conf/adev\n  set jcr:title{String} to \"ali dev\"\nend"
+    ]
+}
